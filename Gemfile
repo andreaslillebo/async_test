@@ -66,3 +66,5 @@ end
 gem "falcon"
 gem "async-job-adapter-active_job"
 gem "async-cable"
+
+gem "appsignal"
