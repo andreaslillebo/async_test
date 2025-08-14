@@ -1,7 +1,3 @@
-# frozen_string_literal: true
-
-require "rack/events"
-
 module RackEventsCableSkip
   def call(env)
     path = env["PATH_INFO"]
