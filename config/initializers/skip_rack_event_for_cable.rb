@@ -1,7 +1,7 @@
 module RackEventsCableSkip
   def call(env)
     path = env["PATH_INFO"]
-    if path == "/cable" || (path && path.start_with?("/cable/"))
+    if path == "/cable"
       @app.call(env)
     else
       super
